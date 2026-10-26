@@ -1,0 +1,146 @@
+.right-side {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+.email {
+  position: relative;
+  width: 100%;
+  max-width: 530px;
+}
+
+.email input {
+  width: 100%;
+  height: 65px;
+  padding: 20px 16px 0 16px;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: rgb(182, 178, 178);
+  outline: none;
+  background-color: white;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.email label {
+  position: absolute;
+  left: 16px;
+  top: 17px;
+  color: #323333;
+  font-size: 18px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  background: white;
+  padding: 0 4px;
+}
+
+.email input:focus ~ label,
+.email input:not(:placeholder-shown) ~ label {
+  top: 5px;
+  font-size: 13px;
+  color: gray;
+}
+.email input:hover {
+  cursor: pointer;
+  border-color: #323333;
+}
+.login-button {
+  width: 100%;
+  height: 48px;
+  max-width: 530px;
+  border-radius: 28px;
+  border: 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+  background-color: #76aef2;
+  margin-top: 20px;
+}
+.forgotten-password {
+  width: 100%;
+  height: 48px;
+  max-width: 530px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 28px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+}
+.forgotten-password:hover {
+  cursor: pointer;
+  background-color: rgb(246, 242, 242);
+  transition: 0.25s;
+}
+.facebook-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  box-sizing: border-box;
+}
+.facebook-logo a {
+  color: #040404;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.facebook-logo img {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+}
+.logo-button {
+  width: 100%;
+  height: 45px;
+  max-width: 530px;
+  border: none;
+  border-radius: 28px;
+  margin-top: 50px;
+}
+.logo-button:hover {
+  cursor: pointer;
+  background-color: rgb(227, 230, 233);
+  transition: 0.25s;
+}
+.new-account {
+  width: 100%;
+  max-width: 530px;
+  height: 45px;
+  background-color: white;
+  color: #0064e0;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  border-radius: 28px;
+  border: 1px solid;
+  border-color: #0064e0;
+  margin-top: 15px;
+}
+.new-account:hover {
+  cursor: pointer;
+  background-color: rgb(251, 248, 248);
+  transition: 0.25s;
+}
+.meta-content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+
+  margin-top: 25px;
+}
+.meta-symbol {
+  color: rgb(9, 142, 187);
+}
